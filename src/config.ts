@@ -30,7 +30,7 @@ export const WEDDING = {
   ],
   cronograma: [
     { nome: "Chegada dos convidados", horario: "14:30", icon: Users },
-    { nome: "Cerimônia religiosa", horario: "15:00", icon: Calendar },
+    { nome: "Cerimônia", horario: "15:00", icon: Calendar },
     { nome: "Sessão de fotos", horario: "16:00", icon: Camera },
     { nome: "Cocktail de boas-vindas", horario: "17:30", icon: Gift },
     { nome: "Jantar e festa", horario: "19:00", icon: Music4 },
