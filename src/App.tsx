@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Hero } from "./sections/Hero";
 import { Schedule } from "./sections/Schedule";
 import { Timeline } from "./sections/Timeline";
@@ -7,9 +7,22 @@ import { Gifts } from "./sections/Gifts";
 import { Footer } from "./sections/Footer";
 import { WEDDING } from "./config";
 import { ButtonGhost } from "./components/ui/Button";
+import React, { useEffect } from "react";
 
 export default function App() {
   const scrollToId = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  
+useEffect(() => {
+  if (window.location.hash) {
+    const el = document.querySelector(window.location.hash);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+}, []);
+
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-stone-50 via-white to-white text-slate-800">
       <header className="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
@@ -31,4 +44,6 @@ export default function App() {
       <Footer />
     </div>
   );
+  
 }
+
