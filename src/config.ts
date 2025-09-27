@@ -33,14 +33,14 @@ export const WEDDING = {
     { nome: "Cerimônia", horario: "15:00", icon: Calendar },
     { nome: "Sessão de fotos", horario: "16:00", icon: Camera },
     { nome: "Cocktail de boas-vindas", horario: "17:30", icon: Gift },
-    { nome: "Jantar e festa", horario: "19:00", icon: Music4 },
+    { nome: "Jantar e festa", horario: "18:15", icon: Music4 },
   ],
   historia: [
     { ano: "2023", titulo: "Primeiro Encontro", texto: "Foi o início de uma amizade especial que Deus estava preparando.", icon: Heart },
     { ano: "2023", titulo: "Namoro Oficial", texto: "Com oração e fé, decidimos caminhar juntos segundo a vontade de Deus.", icon: Star },
     { ano: "2025", titulo: "Noivado", texto: "Diante do Senhor, demos mais um passo de compromisso em nossa história.", icon: Heart },
     { ano: "2025", titulo: "Planejamento", texto: "Buscando sabedoria em Deus, planejamos cada detalhe do nosso grande dia.", icon: Calendar },
-    { ano: "2026", titulo: "Gratidão", texto: "Agradecemos a Deus por nos conduzir até aqui e por cada pessoa que faz parte dessa jornada.", icon: Clock },
+    { ano: "2027", titulo: "Gratidão", texto: "Agradecemos a Deus por nos conduzir até aqui e por cada pessoa que faz parte dessa jornada.", icon: Clock },
   ],
   contatos: {
     noiva: { telefone: "(11) 99999-1111", email: "tainara@email.com", instagram: "@tainara_noiva" },
