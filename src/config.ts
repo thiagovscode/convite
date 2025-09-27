@@ -11,10 +11,10 @@ export const WEDDING = {
   noiva: "Tainara",
   noivo: "Thiago",
   data: {
-    iso: "2025-09-31T16:30:00-03:00",
-    texto: "a ser definida",
-    horario: "16h30",
-    diaSemana: "sábado",
+    iso: "2027-01-24T15:00:00-03:00",
+    texto: "24 de janeiro de 2027",
+    horario: "15h00",
+    diaSemana: "domingo",
   },
   local: {
     nome: "Espaço Balboa",
@@ -45,9 +45,9 @@ export const WEDDING = {
   contatos: {
     noiva: { telefone: "(11) 99999-1111", email: "tainara@email.com", instagram: "@tainara_noiva" },
     noivo: { telefone: "(11) 99999-2222", email: "thiago@email.com", instagram: "@thiago_noivo" },
-    hashtag: "#TainaraEThiago2026",
+    hashtag: "#TainaraEThiago2027",
     cidade: "São Paulo, SP",
-    rodapeData: "a ser definida",
+    rodapeData: "24 de janeiro de 2027",
     frase: "Quem me dera que se cumprisse o meu desejo, e que Deus me desse o que espero! (Jó 6:8)"
   },
 };
